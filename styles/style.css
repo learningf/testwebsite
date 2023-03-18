@@ -1,0 +1,81 @@
+html {
+  background-color: #255255;
+  font-size: 40px; /* px means "pixels": the base font size is now 10 pixels high */
+  font-family: "Roboto", sans-serif; /* this should be the rest of the output you got from Google Fonts */
+}
+nav {
+  display: block;
+  margin-left: auto;
+  margin-right;
+}
+h1 {
+  color: white;
+  font-size: 60px;
+  text-align: center;
+}
+a {
+  color: black;
+}
+p {
+  color: white;
+  font-size: 20px;
+}
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+body {
+  width: device:auto;
+  margin: 0 auto;
+  background-color: #255255;
+  padding: 0 20px 20px 20px;
+  border: 0px solid black;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav {
+  border-radius:25px;
+  box-sizing: border-box;
+  font-size: 25px;
+  color: #F2F2F2;
+  overflow: hidden;
+  background-color: #262626;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  background-position: left = 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 10px;
+}
+.nav a {
+  font-size: 25px;
+  color: #F2F2F2;
+}
+
+////
+#item{
+transition: all 0s eas-out;
+background:#fff;
+color:#000;
+}
+
+.hovered{
+  font-style: italic !important;
+  color:#fff !important;
+  font-weight: bold !important;
+}
+
+.hovered.home{
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  background: #454545;
+  border-radius: 25px;
+  border-width: inherit;
+}
